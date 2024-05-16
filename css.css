@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('slika/poz.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.quote-container {
+    border: 2px dashed #333;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#quote {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #444;
+}
+
+#refresh-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#refresh-button:hover {
+    transform: scale(1.1);
+    background-color: #1c86ee;
+}
